@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>NBA Page</title>
+            <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
+        </head>
+    <body>
+        <div class="main">
+            <div class="header">
+                <h1>NBA</h1>
+            </div>
+
+            <div id="west-score-box">
+                <h2>LA Lakers</h2>
+                <p1>{{data}}</p1>
+                <p2>{{away_team}}: {{away_score}}
+                    {{home_team}}: {{home_score}}
+                </p2>
+            </div>
+
+    </body>
+</html>

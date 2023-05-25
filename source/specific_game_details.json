@@ -1,0 +1,163 @@
+{
+    "event_id": "c294ca630750d47e79072a449acbeb54",
+    "event_uuid": "11ed-f900-f3907400-87b4-925f0daa4d89",
+    "sport_id": 4,
+    "event_date": "2023-05-23T00:30:00Z",
+    "rotation_number_away": 543,
+    "rotation_number_home": 544,
+    "score": {
+        "event_id": "c294ca630750d47e79072a449acbeb54",
+        "event_status": "STATUS_IN_PROGRESS",
+        "winner_away": 0,
+        "winner_home": 0,
+        "score_away": 74,
+        "score_home": 79,
+        "score_away_by_period": [
+            28,
+            30,
+            16
+        ],
+        "score_home_by_period": [
+            34,
+            39,
+            6
+        ],
+        "venue_name": "crypto.com Arena",
+        "venue_location": "Los Angeles, CA",
+        "game_clock": 419,
+        "display_clock": "6:59",
+        "game_period": 3,
+        "broadcast": "ESPN",
+        "event_status_detail": "6:59 - 3rd",
+        "updated_at": "2023-05-23T02:13:58Z"
+    },
+    "teams": [
+        {
+            "team_id": 2822241,
+            "team_normalized_id": 16,
+            "name": "Denver Nuggets",
+            "is_away": true,
+            "is_home": false
+        },
+        {
+            "team_id": 2822240,
+            "team_normalized_id": 23,
+            "name": "Los Angeles Lakers",
+            "is_away": false,
+            "is_home": true
+        }
+    ],
+    "teams_normalized": [
+        {
+            "team_id": 16,
+            "name": "Denver",
+            "mascot": "Nuggets",
+            "abbreviation": "DEN",
+            "conference_id": 757,
+            "division_id": 18,
+            "ranking": 0,
+            "record": "53-29",
+            "is_away": true,
+            "is_home": false,
+            "conference": {
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Western Conference"
+            },
+            "division": {
+                "division_id": 18,
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Northwest"
+            }
+        },
+        {
+            "team_id": 23,
+            "name": "Los Angeles",
+            "mascot": "Lakers",
+            "abbreviation": "LAL",
+            "conference_id": 757,
+            "division_id": 19,
+            "ranking": 0,
+            "record": "43-39",
+            "is_away": false,
+            "is_home": true,
+            "conference": {
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Western Conference"
+            },
+            "division": {
+                "division_id": 19,
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Pacific"
+            }
+        }
+    ],
+    "schedule": {
+        "league_name": "National Basketball Association",
+        "conference_competition": false,
+        "season_type": "Postseason",
+        "season_year": 2023,
+        "event_headline": "West Finals - Game 4",
+        "event_name": "West Finals - Game 4 - Denver at Los Angeles - 2023-05-23T00:30:00Z",
+        "attendance": "0"
+    },
+    "lines": {
+        "19": {
+            "line_id": 17347238,
+            "moneyline": {
+                "moneyline_away": 0.0001,
+                "moneyline_away_delta": -129.9999,
+                "moneyline_home": 0.0001,
+                "moneyline_home_delta": 150.0001,
+                "moneyline_draw": 0.0001,
+                "moneyline_draw_delta": 0,
+                "line_id": 17347238,
+                "event_id": "c294ca630750d47e79072a449acbeb54",
+                "sport_id": 4,
+                "affiliate_id": 19,
+                "date_updated": "2023-05-23T00:41:24.334513Z",
+                "format": "American"
+            },
+            "spread": {
+                "point_spread_away": 0.0001,
+                "point_spread_home": 0.0001,
+                "point_spread_away_delta": -3.4999,
+                "point_spread_home_delta": 3.5001,
+                "point_spread_away_money": 0.0001,
+                "point_spread_away_money_delta": 115.0001,
+                "point_spread_home_money": 0.0001,
+                "point_spread_home_money_delta": 105.0001,
+                "line_id": 17347238,
+                "event_id": "c294ca630750d47e79072a449acbeb54",
+                "sport_id": 4,
+                "affiliate_id": 19,
+                "date_updated": "2023-05-23T00:41:24.351944Z",
+                "format": "American"
+            },
+            "total": {
+                "total_over": 0.0001,
+                "total_over_delta": -225.4999,
+                "total_under": 0.0001,
+                "total_under_delta": -225.4999,
+                "total_over_money": 0.0001,
+                "total_over_money_delta": 105.0001,
+                "total_under_money": 0.0001,
+                "total_under_money_delta": 115.0001,
+                "line_id": 17347238,
+                "event_id": "c294ca630750d47e79072a449acbeb54",
+                "sport_id": 4,
+                "affiliate_id": 19,
+                "date_updated": "2023-05-23T00:41:24.382374Z",
+                "format": "American"
+            },
+            "affiliate": {
+                "affiliate_id": 19,
+                "affiliate_name": "Draftkings",
+                "affiliate_url": "https://sportsbook.draftkings.com/"
+            }
+        }
+    }
+}
