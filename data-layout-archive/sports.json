@@ -1,0 +1,85 @@
+
+{
+    "sports": [
+        {
+        "sport_id": 1,
+        "sport_name": "NCAA Football"
+        },
+        {
+        "sport_id": 2,
+        "sport_name": "NFL"
+        },
+        {
+        "sport_id": 3,
+        "sport_name": "MLB"
+        },
+        {
+        "sport_id": 4,
+        "sport_name": "NBA"
+        },
+        {
+        "sport_id": 5,
+        "sport_name": "NCAA Men's Basketball"
+        },
+        {
+        "sport_id": 6,
+        "sport_name": "NHL"
+        },
+        {
+        "sport_id": 7,
+        "sport_name": "UFC/MMA"
+        },
+        {
+        "sport_id": 8,
+        "sport_name": "WNBA"
+        },
+        {
+        "sport_id": 10,
+        "sport_name": "MLS"
+        },
+        {
+        "sport_id": 11,
+        "sport_name": "EPL"
+        },
+        {
+        "sport_id": 12,
+        "sport_name": "FRA1"
+        },
+        {
+        "sport_id": 13,
+        "sport_name": "GER1"
+        },
+        {
+        "sport_id": 14,
+        "sport_name": "ESP1"
+        },
+        {
+        "sport_id": 15,
+        "sport_name": "ITA1"
+        },
+        {
+        "sport_id": 16,
+        "sport_name": "UEFACHAMP"
+        },
+        {
+        "sport_id": 17,
+        "sport_name": "UEFAEURO"
+        },
+        {
+        "sport_id": 18,
+        "sport_name": "FIFA"
+        },
+        {
+        "sport_id": 19,
+        "sport_name": "JPN1"
+        },
+        {
+        "sport_id": 20,
+        "sport_name": "IPL"
+        },
+        {
+        "sport_id": 21,
+        "sport_name": "T20"
+        }
+    ]
+}

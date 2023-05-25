@@ -1,0 +1,683 @@
+{
+    "teams": [
+        {
+            "team_id": 2776,
+            "name": "Adelaide",
+            "mascot": "Adelaide 36ers",
+            "abbreviation": "ADE",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 11,
+            "name": "Atlanta",
+            "mascot": "Hawks",
+            "abbreviation": "ATL",
+            "record": "41-41",
+            "conference": {
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Eastern Conference"
+            },
+            "division": {
+                "division_id": 17,
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Southeast"
+            }
+        },
+        {
+            "team_id": 1,
+            "name": "Boston",
+            "mascot": "Celtics",
+            "abbreviation": "BOS",
+            "record": "57-25",
+            "conference": {
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Eastern Conference"
+            },
+            "division": {
+                "division_id": 15,
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Atlantic"
+            }
+        },
+        {
+            "team_id": 2,
+            "name": "Brooklyn",
+            "mascot": "Nets",
+            "abbreviation": "BKN",
+            "record": "45-37",
+            "conference": {
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Eastern Conference"
+            },
+            "division": {
+                "division_id": 15,
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Atlantic"
+            }
+        },
+        {
+            "team_id": 12,
+            "name": "Charlotte",
+            "mascot": "Hornets",
+            "abbreviation": "CHA",
+            "record": "27-55",
+            "conference": {
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Eastern Conference"
+            },
+            "division": {
+                "division_id": 17,
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Southeast"
+            }
+        },
+        {
+            "team_id": 6,
+            "name": "Chicago",
+            "mascot": "Bulls",
+            "abbreviation": "CHI",
+            "record": "40-42",
+            "conference": {
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Eastern Conference"
+            },
+            "division": {
+                "division_id": 16,
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Central"
+            }
+        },
+        {
+            "team_id": 1803,
+            "name": "China",
+            "mascot": "",
+            "abbreviation": "CHINA",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 7,
+            "name": "Cleveland",
+            "mascot": "Cavaliers",
+            "abbreviation": "CLE",
+            "record": "51-31",
+            "conference": {
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Eastern Conference"
+            },
+            "division": {
+                "division_id": 16,
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Central"
+            }
+        },
+        {
+            "team_id": 1805,
+            "name": "Croatia",
+            "mascot": "",
+            "abbreviation": "CROATIA",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 26,
+            "name": "Dallas",
+            "mascot": "Mavericks",
+            "abbreviation": "DAL",
+            "record": "38-44",
+            "conference": {
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Western Conference"
+            },
+            "division": {
+                "division_id": 20,
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Southwest"
+            }
+        },
+        {
+            "team_id": 16,
+            "name": "Denver",
+            "mascot": "Nuggets",
+            "abbreviation": "DEN",
+            "record": "53-29",
+            "conference": {
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Western Conference"
+            },
+            "division": {
+                "division_id": 18,
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Northwest"
+            }
+        },
+        {
+            "team_id": 8,
+            "name": "Detroit",
+            "mascot": "Pistons",
+            "abbreviation": "DET",
+            "record": "17-65",
+            "conference": {
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Eastern Conference"
+            },
+            "division": {
+                "division_id": 16,
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Central"
+            }
+        },
+        {
+            "team_id": 3338,
+            "name": "DUR",
+            "mascot": "Dur",
+            "abbreviation": "DUR",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 2773,
+            "name": "Franca",
+            "mascot": "Franca",
+            "abbreviation": "FBC",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 21,
+            "name": "Golden State",
+            "mascot": "Warriors",
+            "abbreviation": "GS",
+            "record": "44-38",
+            "conference": {
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Western Conference"
+            },
+            "division": {
+                "division_id": 19,
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Pacific"
+            }
+        },
+        {
+            "team_id": 2778,
+            "name": "Guangzhou",
+            "mascot": "Guangzhou Long-Lions",
+            "abbreviation": "GUA",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 2774,
+            "name": "Haifa",
+            "mascot": "Maccabi Haifa",
+            "abbreviation": "MCH",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 27,
+            "name": "Houston",
+            "mascot": "Rockets",
+            "abbreviation": "HOU",
+            "record": "22-60",
+            "conference": {
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Western Conference"
+            },
+            "division": {
+                "division_id": 20,
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Southwest"
+            }
+        },
+        {
+            "team_id": 9,
+            "name": "Indiana",
+            "mascot": "Pacers",
+            "abbreviation": "IND",
+            "record": "35-47",
+            "conference": {
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Eastern Conference"
+            },
+            "division": {
+                "division_id": 16,
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Central"
+            }
+        },
+        {
+            "team_id": 22,
+            "name": "LA",
+            "mascot": "Clippers",
+            "abbreviation": "LAC",
+            "record": "44-38",
+            "conference": {
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Western Conference"
+            },
+            "division": {
+                "division_id": 19,
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Pacific"
+            }
+        },
+        {
+            "team_id": 23,
+            "name": "Los Angeles",
+            "mascot": "Lakers",
+            "abbreviation": "LAL",
+            "record": "43-39",
+            "conference": {
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Western Conference"
+            },
+            "division": {
+                "division_id": 19,
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Pacific"
+            }
+        },
+        {
+            "team_id": 2781,
+            "name": "Melbourne",
+            "mascot": "Melbourne United",
+            "abbreviation": "MEL",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 28,
+            "name": "Memphis",
+            "mascot": "Grizzlies",
+            "abbreviation": "MEM",
+            "record": "51-31",
+            "conference": {
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Western Conference"
+            },
+            "division": {
+                "division_id": 20,
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Southwest"
+            }
+        },
+        {
+            "team_id": 13,
+            "name": "Miami",
+            "mascot": "Heat",
+            "abbreviation": "MIA",
+            "record": "44-38",
+            "conference": {
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Eastern Conference"
+            },
+            "division": {
+                "division_id": 17,
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Southeast"
+            }
+        },
+        {
+            "team_id": 10,
+            "name": "Milwaukee",
+            "mascot": "Bucks",
+            "abbreviation": "MIL",
+            "record": "58-24",
+            "conference": {
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Eastern Conference"
+            },
+            "division": {
+                "division_id": 16,
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Central"
+            }
+        },
+        {
+            "team_id": 17,
+            "name": "Minnesota",
+            "mascot": "Timberwolves",
+            "abbreviation": "MIN",
+            "record": "42-40",
+            "conference": {
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Western Conference"
+            },
+            "division": {
+                "division_id": 18,
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Northwest"
+            }
+        },
+        {
+            "team_id": 29,
+            "name": "New Orleans",
+            "mascot": "Pelicans",
+            "abbreviation": "NO",
+            "record": "42-40",
+            "conference": {
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Western Conference"
+            },
+            "division": {
+                "division_id": 20,
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Southwest"
+            }
+        },
+        {
+            "team_id": 3,
+            "name": "New York",
+            "mascot": "Knicks",
+            "abbreviation": "NYK",
+            "record": "47-35",
+            "conference": {
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Eastern Conference"
+            },
+            "division": {
+                "division_id": 15,
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Atlantic"
+            }
+        },
+        {
+            "team_id": 2779,
+            "name": "Newzealand",
+            "mascot": "New Zealand Breakers",
+            "abbreviation": "NZL",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 18,
+            "name": "Oklahoma City",
+            "mascot": "Thunder",
+            "abbreviation": "OKC",
+            "record": "40-42",
+            "conference": {
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Western Conference"
+            },
+            "division": {
+                "division_id": 18,
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Northwest"
+            }
+        },
+        {
+            "team_id": 14,
+            "name": "Orlando",
+            "mascot": "Magic",
+            "abbreviation": "ORL",
+            "record": "34-48",
+            "conference": {
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Eastern Conference"
+            },
+            "division": {
+                "division_id": 17,
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Southeast"
+            }
+        },
+        {
+            "team_id": 4,
+            "name": "Philadelphia",
+            "mascot": "76ers",
+            "abbreviation": "PHI",
+            "record": "54-28",
+            "conference": {
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Eastern Conference"
+            },
+            "division": {
+                "division_id": 15,
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Atlantic"
+            }
+        },
+        {
+            "team_id": 24,
+            "name": "Phoenix",
+            "mascot": "Suns",
+            "abbreviation": "PHX",
+            "record": "45-37",
+            "conference": {
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Western Conference"
+            },
+            "division": {
+                "division_id": 19,
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Pacific"
+            }
+        },
+        {
+            "team_id": 19,
+            "name": "Portland",
+            "mascot": "Trailblazers",
+            "abbreviation": "POR",
+            "record": "33-49",
+            "conference": {
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Western Conference"
+            },
+            "division": {
+                "division_id": 18,
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Northwest"
+            }
+        },
+        {
+            "team_id": 4400,
+            "name": "RA'ANANA",
+            "mascot": "Ra'Anana",
+            "abbreviation": "RA'ANANA",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 25,
+            "name": "Sacramento",
+            "mascot": "Kings",
+            "abbreviation": "SAC",
+            "record": "48-34",
+            "conference": {
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Western Conference"
+            },
+            "division": {
+                "division_id": 19,
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Pacific"
+            }
+        },
+        {
+            "team_id": 30,
+            "name": "San Antonio",
+            "mascot": "Spurs",
+            "abbreviation": "SA",
+            "record": "22-60",
+            "conference": {
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Western Conference"
+            },
+            "division": {
+                "division_id": 20,
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Southwest"
+            }
+        },
+        {
+            "team_id": 2775,
+            "name": "San Lorenzo",
+            "mascot": "San Lorenzo",
+            "abbreviation": "SAN",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 2777,
+            "name": "Shanghai",
+            "mascot": "Sharks",
+            "abbreviation": "SHA",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 2756,
+            "name": "TBD",
+            "mascot": "TBD",
+            "abbreviation": "TBD"
+        },
+        {
+            "team_id": 3339,
+            "name": "Team Durant",
+            "mascot": "Team Durant",
+            "abbreviation": "DURANT",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 1775,
+            "name": "Team Giannis",
+            "mascot": "Giannis",
+            "abbreviation": "GIANNIS",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 1774,
+            "name": "Team LeBron",
+            "mascot": "Team LeBron",
+            "abbreviation": "LEBRON",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 1773,
+            "name": "Team USA",
+            "mascot": "USA",
+            "abbreviation": "USA",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 1772,
+            "name": "Team World",
+            "mascot": "World",
+            "abbreviation": "WORLD",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 5,
+            "name": "Toronto",
+            "mascot": "Raptors",
+            "abbreviation": "TOR",
+            "record": "41-41",
+            "conference": {
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Eastern Conference"
+            },
+            "division": {
+                "division_id": 15,
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Atlantic"
+            }
+        },
+        {
+            "team_id": 20,
+            "name": "Utah",
+            "mascot": "Jazz",
+            "abbreviation": "UTAH",
+            "record": "37-45",
+            "conference": {
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Western Conference"
+            },
+            "division": {
+                "division_id": 18,
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Northwest"
+            }
+        },
+        {
+            "team_id": 3530,
+            "name": "Utah",
+            "mascot": "Jazz Blue",
+            "abbreviation": "UTAH",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 3531,
+            "name": "Utah",
+            "mascot": "Jazz White",
+            "abbreviation": "UTAH",
+            "record": "5-5-7"
+        },
+        {
+            "team_id": 15,
+            "name": "Washington",
+            "mascot": "Wizards",
+            "abbreviation": "WSH",
+            "record": "35-47",
+            "conference": {
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Eastern Conference"
+            },
+            "division": {
+                "division_id": 17,
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Southeast"
+            }
+        }
+    ]
+}
