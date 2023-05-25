@@ -54,16 +54,12 @@ away_score = new_scores[0]
 home_score = new_scores[1]
 
 
-print("away scoooore:",away_score)
+print("away score:",away_score)
 print("home score:",home_score)
 
 time_clock = specific_game_details['score']['display_clock']
 broadcast = specific_game_details['score']['broadcast']
 print("complete")
-
-        
-        
-
 
 @app.route('/')
 def index():
