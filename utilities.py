@@ -3,8 +3,17 @@ import config
 import json
 import os
 
-def get_data(url,querystring = None):
-    response = requests.get(url,headers = {"apikey":config.api_key1},params=querystring)
+def get_data(url,querystring = None,key = 1):
+    api_key = ""
+    if key == 1:
+        api_key = config.api_key1
+    elif key == 2:
+        api_key = config.api_key2
+    elif key == 3:
+        api_key = config.api_key3
+    else:
+        raise Exception("Invalid api key")
+    response = requests.get(url,headers = {"apikey":api_key},params=querystring)
     status_code = response.status_code
     if status_code != 200:
         raise Exception(status_code)
@@ -12,7 +21,7 @@ def get_data(url,querystring = None):
     return data
 
 def make_json(name,data,save_path = None):
-    save_path = os.path.join("../NBA/source/",name) 
+    save_path = os.path.join("../NBA/past-games-archive/",name) 
     with open(save_path+".json","w") as f:
         f.write(json.dumps(data))
 

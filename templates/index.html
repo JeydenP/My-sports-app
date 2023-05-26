@@ -11,14 +11,38 @@
             <div class="header">
                 <h1>NBA</h1>
             </div>
-
+            
             <div id="west-score-box">
-                <h2>LA Lakers</h2>
-                <p1>{{data}}</p1>
-                <p2>{{away_team}}: {{away_score}}
-                    {{home_team}}: {{home_score}}
-                </p2>
+                <div>
+                    <p>Away Team: {{ away_team }}</p>
+                    <p>Home Team: {{ home_team }}</p>
+                    <p>Broadcast: {{ broadcast }}</p>
+                </div>
+                <div>
+                    <p>{{home_team}}: <span id="away-score">{{ away_score }}</span></p>
+                    <p>{{away_team}}: <span id="home-score">{{ home_score }}</span></p>
+                    <p>Time Clock: <span id="time-clock">{{ time_clock }}</span></p>
+                </div>
             </div>
+            
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script>
+                $(document).ready(function() {
+                    function updateScores() {
+                        $.ajax({
+                            url: "/get_live_scores",  // Update the route to match the Flask route
+                            type: "GET",
+                            success: function(data) {
+                                // Update the scores on the page
+                                $("#home-score").text(data.home_score);
+                                $("#away-score").text(data.away_score);
+                                $("#time-clock").text(data.time_clock);
+                            }
+                        });
+                    }
+                    setInterval(updateScores,120000);
+                });
+            </script>
 
     </body>
 </html>
