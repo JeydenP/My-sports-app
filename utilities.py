@@ -26,67 +26,67 @@ def make_json(name,data,save_path = None):
         f.write(json.dumps(data))
 
 #todo: add team logos urls.
-def get_team_logo(team_name):
-    match team_name:
-        case "Atlanta Hawks":
+def get_team_logo(team_id):
+    match team_id:
+        case 11:
             pass
-        case "Boston Celtics":
+        case 1:
             pass
-        case "Brooklyn Nets":
+        case 2:
             pass
-        case "Charlotte Hornets":
+        case 12:
             pass
-        case "Chicago Bulls":
+        case 6:
             pass
-        case "Cleveland Cavaliers":
+        case 7:
             pass
-        case "Dallas Mavericks":
+        case 26:
             pass
-        case "Denver Nuggets":
+        case 16:
             pass
-        case "Detroit Pistons":
+        case 8:
             pass
-        case "Golden State Warriors":
+        case 21:
             pass
-        case "Houston Rockets":
+        case 27:
             pass
-        case "Indiana Pacers":
+        case 9:
             pass
-        case "Los Angeles Clippers":
+        case 22:
             pass
-        case "Los Angeles Lakers":
+        case 23:
             pass
-        case "Memphis Grizzlies":
+        case 28:
             pass
-        case "Miami Heat":
+        case 13:
             pass
-        case "Milwaukee Bucks":
+        case 10:
             pass
-        case "Minnesota Timberwolves":
+        case 17:
             pass
-        case "New Orleans Pelicans":
+        case 29:
             pass
-        case "New York Knicks":
+        case 3:
             pass
-        case "Oklahoma City Thunder":
+        case 18:
             pass
-        case "Orlando Magic":
+        case 14:
             pass
-        case "Philadelphia 76ers":
+        case 4:
             pass
-        case "Phoenix Suns":
+        case 24:
             pass
-        case "Portland Trail Blazers":
+        case 19:
             pass
-        case "Sacramento Kings":
+        case 25:
             pass
-        case "San Antonio Spurs":
+        case 30:
             pass
-        case "Toronto Raptors":
+        case 5:
             pass
-        case "Utah Jazz":
+        case 20:
             pass
-        case "Washington Wizards":
+        case 15:
             pass
         case _:
             pass
