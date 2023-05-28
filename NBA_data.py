@@ -28,8 +28,17 @@ with open("../NBA/past-games-archive/BOS_vs_MIA_2023-05-23.json","r") as f:
     bos_vs_mia = json.loads(f.read())
     home_team_abbr = bos_vs_mia['teams_normalized'][1]['abbreviation']
     away_team_abbr = bos_vs_mia['teams_normalized'][0]['abbreviation']
-    print("event id:",bos_vs_mia['event_id'])
-    print(away_team_abbr+":",bos_vs_mia['score']['score_home'])
-    print(home_team_abbr+":",bos_vs_mia['score']['score_away'])
+    # print("event id:",bos_vs_mia['event_id'])
+    # print(away_team_abbr+":",bos_vs_mia['score']['score_home'])
+    # print(home_team_abbr+":",bos_vs_mia['score']['score_away'])
+    
+with open("../NBA/data-layout-archive/nba_teams.json","r") as f:
+    nba_teams = json.loads(f.read())
+    for data in nba_teams['teams']:
+        team_name = data['name']+" "+data['mascot']
+        team_id = data['team_id']
+        print(team_name,":",team_id)
+       
+        
 
-print("complete")
+print("\ncomplete")
