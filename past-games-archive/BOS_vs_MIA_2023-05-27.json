@@ -1,0 +1,163 @@
+{
+    "event_id": "285505ee7d4cc1a2ae4f9fb56629247c",
+    "event_uuid": "11ed-fcee-c7a13400-83e5-0ba77e3eb8c9",
+    "sport_id": 4,
+    "event_date": "2023-05-28T00:30:00Z",
+    "score": {
+        "event_id": "285505ee7d4cc1a2ae4f9fb56629247c",
+        "event_status": "STATUS_FINAL",
+        "winner_away": 1,
+        "winner_home": 0,
+        "score_away": 104,
+        "score_home": 103,
+        "score_away_by_period": [
+            34,
+            23,
+            22,
+            25
+        ],
+        "score_home_by_period": [
+            29,
+            24,
+            19,
+            31
+        ],
+        "venue_name": "Kaseya Center",
+        "venue_location": "Miami, FL",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 4,
+        "broadcast": "TNT",
+        "event_status_detail": "Final",
+        "updated_at": "2023-05-28T03:14:55Z"
+    },
+    "teams": [
+        {
+            "team_id": 2756861,
+            "team_normalized_id": 1,
+            "name": "BOS Celtics",
+            "is_away": true,
+            "is_home": false
+        },
+        {
+            "team_id": 2757158,
+            "team_normalized_id": 13,
+            "name": "MIA Heat",
+            "is_away": false,
+            "is_home": true
+        }
+    ],
+    "teams_normalized": [
+        {
+            "team_id": 1,
+            "name": "Boston",
+            "mascot": "Celtics",
+            "abbreviation": "BOS",
+            "conference_id": 39,
+            "division_id": 15,
+            "ranking": 0,
+            "record": "57-25",
+            "is_away": true,
+            "is_home": false,
+            "conference": {
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Eastern Conference"
+            },
+            "division": {
+                "division_id": 15,
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Atlantic"
+            }
+        },
+        {
+            "team_id": 13,
+            "name": "Miami",
+            "mascot": "Heat",
+            "abbreviation": "MIA",
+            "conference_id": 39,
+            "division_id": 17,
+            "ranking": 0,
+            "record": "44-38",
+            "is_away": false,
+            "is_home": true,
+            "conference": {
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Eastern Conference"
+            },
+            "division": {
+                "division_id": 17,
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Southeast"
+            }
+        }
+    ],
+    "schedule": {
+        "league_name": "National Basketball Association",
+        "conference_competition": false,
+        "season_type": "Postseason",
+        "season_year": 2023,
+        "event_headline": "East Finals - Game 6",
+        "event_name": "East Finals - Game 6 - Boston at Miami - 2023-05-28T00:30:00Z",
+        "attendance": "0"
+    },
+    "lines": {
+        "19": {
+            "line_id": 17350169,
+            "moneyline": {
+                "moneyline_away": 0.0001,
+                "moneyline_away_delta": 125.0001,
+                "moneyline_home": 0.0001,
+                "moneyline_home_delta": -104.9999,
+                "moneyline_draw": 0.0001,
+                "moneyline_draw_delta": 0,
+                "line_id": 17350169,
+                "event_id": "285505ee7d4cc1a2ae4f9fb56629247c",
+                "sport_id": 4,
+                "affiliate_id": 19,
+                "date_updated": "2023-05-28T00:33:28.981755Z",
+                "format": "American"
+            },
+            "spread": {
+                "point_spread_away": 0.0001,
+                "point_spread_home": 0.0001,
+                "point_spread_away_delta": 2.0001,
+                "point_spread_home_delta": -1.9999,
+                "point_spread_away_money": 0.0001,
+                "point_spread_away_money_delta": 110.0001,
+                "point_spread_home_money": 0.0001,
+                "point_spread_home_money_delta": 110.0001,
+                "line_id": 17350169,
+                "event_id": "285505ee7d4cc1a2ae4f9fb56629247c",
+                "sport_id": 4,
+                "affiliate_id": 19,
+                "date_updated": "2023-05-28T00:33:28.996143Z",
+                "format": "American"
+            },
+            "total": {
+                "total_over": 0.0001,
+                "total_over_delta": -209.4999,
+                "total_under": 0.0001,
+                "total_under_delta": -209.4999,
+                "total_over_money": 0.0001,
+                "total_over_money_delta": 110.0001,
+                "total_under_money": 0.0001,
+                "total_under_money_delta": 110.0001,
+                "line_id": 17350169,
+                "event_id": "285505ee7d4cc1a2ae4f9fb56629247c",
+                "sport_id": 4,
+                "affiliate_id": 19,
+                "date_updated": "2023-05-28T00:33:29.016232Z",
+                "format": "American"
+            },
+            "affiliate": {
+                "affiliate_id": 19,
+                "affiliate_name": "Draftkings",
+                "affiliate_url": "https://sportsbook.draftkings.com/"
+            }
+        }
+    }
+}
