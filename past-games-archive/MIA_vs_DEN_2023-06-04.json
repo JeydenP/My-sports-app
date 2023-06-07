@@ -1,0 +1,163 @@
+{
+    "event_id": "d3e73f79122f3ee8b811cdc597a81861",
+    "event_uuid": "11ee-0333-ea0d0000-81e6-8c7ee721aa34",
+    "sport_id": 4,
+    "event_date": "2023-06-05T00:00:00Z",
+    "score": {
+        "event_id": "d3e73f79122f3ee8b811cdc597a81861",
+        "event_status": "STATUS_FINAL",
+        "winner_away": 1,
+        "winner_home": 0,
+        "score_away": 111,
+        "score_home": 108,
+        "score_away_by_period": [
+            26,
+            25,
+            24,
+            36
+        ],
+        "score_home_by_period": [
+            23,
+            34,
+            26,
+            25
+        ],
+        "venue_name": "Ball Arena",
+        "venue_location": "Denver, CO",
+        "game_clock": 0,
+        "display_clock": "0.00",
+        "game_period": 4,
+        "broadcast": "ABC",
+        "event_status_detail": "Final",
+        "updated_at": "2023-06-05T02:35:11Z"
+    },
+    "teams": [
+        {
+            "team_id": 2757158,
+            "team_normalized_id": 13,
+            "name": "MIA Heat",
+            "is_away": true,
+            "is_home": false
+        },
+        {
+            "team_id": 2756860,
+            "team_normalized_id": 16,
+            "name": "DEN Nuggets",
+            "is_away": false,
+            "is_home": true
+        }
+    ],
+    "teams_normalized": [
+        {
+            "team_id": 13,
+            "name": "Miami",
+            "mascot": "Heat",
+            "abbreviation": "MIA",
+            "conference_id": 39,
+            "division_id": 17,
+            "ranking": 0,
+            "record": "44-38",
+            "is_away": true,
+            "is_home": false,
+            "conference": {
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Eastern Conference"
+            },
+            "division": {
+                "division_id": 17,
+                "conference_id": 39,
+                "sport_id": 4,
+                "name": "Southeast"
+            }
+        },
+        {
+            "team_id": 16,
+            "name": "Denver",
+            "mascot": "Nuggets",
+            "abbreviation": "DEN",
+            "conference_id": 757,
+            "division_id": 18,
+            "ranking": 0,
+            "record": "53-29",
+            "is_away": false,
+            "is_home": true,
+            "conference": {
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Western Conference"
+            },
+            "division": {
+                "division_id": 18,
+                "conference_id": 757,
+                "sport_id": 4,
+                "name": "Northwest"
+            }
+        }
+    ],
+    "schedule": {
+        "league_name": "National Basketball Association",
+        "conference_competition": false,
+        "season_type": "Postseason",
+        "season_year": 2023,
+        "event_headline": "NBA Finals - Game 2",
+        "event_name": "NBA Finals - Game 2 - Miami at Denver - 2023-06-05T00:00:00Z",
+        "attendance": "0"
+    },
+    "lines": {
+        "19": {
+            "line_id": 17352834,
+            "moneyline": {
+                "moneyline_away": 0.0001,
+                "moneyline_away_delta": -279.9999,
+                "moneyline_home": 0.0001,
+                "moneyline_home_delta": 340.0001,
+                "moneyline_draw": 0.0001,
+                "moneyline_draw_delta": 0,
+                "line_id": 17352834,
+                "event_id": "d3e73f79122f3ee8b811cdc597a81861",
+                "sport_id": 4,
+                "affiliate_id": 19,
+                "date_updated": "2023-06-05T00:08:09.419681Z",
+                "format": "American"
+            },
+            "spread": {
+                "point_spread_away": 0.0001,
+                "point_spread_home": 0.0001,
+                "point_spread_away_delta": -7.9999,
+                "point_spread_home_delta": 8.0001,
+                "point_spread_away_money": 0.0001,
+                "point_spread_away_money_delta": 110.0001,
+                "point_spread_home_money": 0.0001,
+                "point_spread_home_money_delta": 110.0001,
+                "line_id": 17352834,
+                "event_id": "d3e73f79122f3ee8b811cdc597a81861",
+                "sport_id": 4,
+                "affiliate_id": 19,
+                "date_updated": "2023-06-05T00:08:09.445515Z",
+                "format": "American"
+            },
+            "total": {
+                "total_over": 0.0001,
+                "total_over_delta": -216.4999,
+                "total_under": 0.0001,
+                "total_under_delta": -216.4999,
+                "total_over_money": 0.0001,
+                "total_over_money_delta": 110.0001,
+                "total_under_money": 0.0001,
+                "total_under_money_delta": 110.0001,
+                "line_id": 17352834,
+                "event_id": "d3e73f79122f3ee8b811cdc597a81861",
+                "sport_id": 4,
+                "affiliate_id": 19,
+                "date_updated": "2023-06-05T00:08:09.466344Z",
+                "format": "American"
+            },
+            "affiliate": {
+                "affiliate_id": 19,
+                "affiliate_name": "Draftkings",
+                "affiliate_url": "https://sportsbook.draftkings.com/"
+            }
+        }
+    }
+}
