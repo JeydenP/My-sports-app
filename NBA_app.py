@@ -8,6 +8,7 @@ import json
 app = Flask(__name__)
 today = date.today()
 yesterday = today - timedelta(days=1)
+tomorrow = today + timedelta(days=1)
 
 
 folder_path = "../NBA/past-games-archive/"
@@ -83,6 +84,7 @@ def get_live_score(home_score,away_score):
             new_scores.append(away_score[0])
             new_scores.append(home_score[0])
             new_scores.append(live_score['score']['display_clock'])
+            new_scores.append(live_score['score']['game_period'])
             new_scores.append(live_score['score']['event_status'])
             return new_scores
         else:
@@ -122,17 +124,19 @@ def get_live_scores():
     
     
     new_scores = get_live_score(home_score[0], away_score[0])
-    home_score[0] = new_scores[0]
-    away_score[0] = new_scores[1]  
+    away_score[0] = new_scores[0]  
+    home_score[0] = new_scores[1]
     time_clock = new_scores[2]
-    game_status = new_scores[3]
+    quarter = new_scores[3]
+    game_status = new_scores[-1]
 
     # Return the updated scores as JSON
     return jsonify({
         'home_score': home_score[0],
         'away_score': away_score[0],
         'time_clock': time_clock,
-        'game_status': game_status
+        'game_status': game_status,
+        'quarter': quarter
     })
 
 app.run(host="0.0.0.0",port=80,threaded=True,debug=True)
