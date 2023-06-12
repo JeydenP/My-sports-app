@@ -1,98 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-    <html>
-        <head>
-            <meta charset="utf-8">
-            <title>NBA Page</title>
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-            <script type="text/javascript" src="{{ url_for('static', filename='scripts/updateScores_script.js') }}"></script>
-            <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
-        </head>
-    <body>
-        <div class="main">
-            
-            <div class="header">
-                <h1>NBA</h1>
-            </div>
-            
-            <div class="scoreboards">
-
-                <div class="score-box">
-                    <div class="team-names">
-                        <p>{{ away_team[2] }}</p>
-                        <p>{{ home_team[2] }}</p>
-                    </div>
-
-                    <div class="game-scores">
-                        <p><img src= {{away_team_logo[2]}}> <span id="away-score">{{ away_score[2] }}</span></p> 
-                        <p><img src= {{home_team_logo[2]}}> <span id="home-score">{{ home_score[2] }}</span></p>
-                    </div>
-                        
-                    <div class="game-time">
-                        <p>Time Clock: <span id="time-clock">{{ time_clock }}</span></p>
-                        <p>Q:{{quarter}}</p>
-                    </div>
-                    
-                    <div class="game-stream {{broadcast[2]}}">
-                        <img src= {{broadcast_logo[2]}}>
-                    </div>
-
-                </div>
-
-            </div>
-            
-            <div class="scoreboards">
-
-                <div class="score-box">
-                    <div class="team-names">
-                        <p>{{ away_team[1] }}</p>
-                        <p>{{ home_team[1] }}</p>
-                    </div>
-
-                    <div class="game-scores">
-                        <p><img src= {{away_team_logo[1]}}> <span id="away-score">{{ away_score[1] }}</span></p> 
-                        <p><img src= {{home_team_logo[1]}}> <span id="home-score">{{ home_score[1] }}</span></p>
-                    </div>
-                        
-                    <div class="game-time">
-                        <p>Time Clock: <span id="time-clock">{{ time_clock }}</span></p>
-                        <p>Q:{{quarter}}</p>
-                    </div>
-            
-                    <div class="game-stream {{broadcast[1]}}">
-                        <img src= {{broadcast_logo[1]}}>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="scoreboards">
-
-                <div class="score-box">
-                    <div class="team-names">
-                        <p>{{ away_team[0] }}</p>
-                        <p>{{ home_team[0] }}</p>
-                    </div>
-
-                    <div class="game-scores">
-                        <p><img src= {{away_team_logo[0]}}> <span id="away-score">{{ away_score[0] }}</span></p> 
-                        <p><img src= {{home_team_logo[0]}}> <span id="home-score">{{ home_score[0] }}</span></p>
-                    </div>
-                        
-                    <div class="game-time">
-                        <p>Time Clock: <span id="time-clock">{{ time_clock }}</span></p>
-                        <p>Q:{{quarter}}</p>
-                    </div>
-                    
-                    <div class="game-stream {{broadcast[0]}}">
-                        <img src= {{broadcast_logo[0]}}>
-                    </div>     
-                </div>
-                    
-            </div>
-            
+<head>
+    <meta charset="utf-8">
+    <title>NBA Page</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='scripts/updateScores_script.js') }}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/styles.css') }}">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>NBA</h1>
         </div>
+
+        <div class="NBA-logo">
+            <img src="https://content.sportslogos.net/logos/6/6662/full/_nba_finals_logo_primary_dark_2023_sportslogosnet-1805.png">
+        </div>
+
+        <div class="scoreboards">
+            <div class="score-box">
+                <div class="team-names">
+                    <p>{{ away_team[2] }}</p>
+                    <p>{{ home_team[2] }}</p>
+                </div>
+
+                <div class="game-scores">
+                    <p><img src="{{ away_team_logo[2] }}"> <span id="away-score">{{ away_score[2] }}</span></p> 
+                    <p><img src="{{ home_team_logo[2] }}"> <span id="home-score">{{ home_score[2] }}</span></p>
+                </div>
+                    
+                <div class="game-time">
+                    <p>Time Clock: <span id="time-clock">{{ time_clock }}</span></p>
+                    <p>Q:{{ quarter }}</p>
+                </div>
+                    
+                <div class="game-stream {{ broadcast[2] }}">
+                    <img src="{{ broadcast_logo[2] }}">
+                </div>
+            </div>
+        </div>
+
+        <div class="scoreboards">
+            <div class="score-box">
+                <div class="team-names">
+                    <p>{{ away_team[1] }}</p>
+                    <p>{{ home_team[1] }}</p>
+                </div>
+
+                <div class="game-scores">
+                    <p><img src="{{ away_team_logo[1] }}"> <span id="away-score">{{ away_score[1] }}</span></p> 
+                    <p><img src="{{ home_team_logo[1] }}"> <span id="home-score">{{ home_score[1] }}</span></p>
+                </div>
+                    
+                <div class="game-time">
+                    <p>Time Clock: <span id="time-clock">{{ time_clock }}</span></p>
+                    <p>Q:{{ quarter }}</p>
+                </div>
             
-    </body>
+                <div class="game-stream {{ broadcast[1] }}">
+                    <img src="{{ broadcast_logo[1] }}">
+                </div>
+            </div>
+        </div>
+
+        <div class="scoreboards">
+            <div class="score-box">
+                <div class="team-names">
+                    <p>{{ away_team[0] }}</p>
+                    <p>{{ home_team[0] }}</p>
+                </div>
+                        
+                <div class="game-scores">
+                    <p><img src="{{ away_team_logo[0] }}"> <span id="away-score">{{ away_score[0] }}</span></p> 
+                    <p><img src="{{ home_team_logo[0] }}"> <span id="home-score">{{ home_score[0] }}</span></p>
+                </div>
+                        
+                <div class="game-time">
+                    <p>Time Clock: <span id="time-clock">{{ time_clock }}</span></p>
+                    <p>Q:{{ quarter }}</p>
+                </div>
+                        
+                <div class="game-stream {{ broadcast[0] }}">
+                    <img src="{{ broadcast_logo[0] }}">
+                </div> 
+            </div>
+        </div>
+    </div>
+</body>
 </html>
