@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.main{
+.main {
     width: 100%;
     height: 100vh;
     position: static;
@@ -11,7 +11,7 @@
     background-color: rgba(24, 22, 22, 0.602);
 }
 
-.scoreboards{
+.scoreboards {
     display: flex;
     flex-direction: column;
     background: #1e1f21;
@@ -25,17 +25,17 @@
     overflow: hidden;
 }
 
-.score-box{
+.score-box {
     display: flex;
     flex-direction: column;
 }
 
-.team-names{
+.team-names {
     display: flex;
     justify-content: space-evenly;
 }
 
-.game-scores{
+.game-scores {
     display: flex;
     justify-content: space-evenly;
     padding: 12px;
@@ -44,29 +44,36 @@
     border-radius: 4px;
 }
 
-.game-time{
+.game-time {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 20px;
 }
 
-.game-stream{
+.NBA-logo {
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    width: auto;
+    height: auto;
 }
 
-.ESPN img{
+.game-stream {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ESPN img {
     width: auto;
     height: 12px;
 }
 
-.TNT img{
+.TNT img {
     width: auto;
     height: 25px;
 }
 
-.ABC img{
+.ABC img {
     width: auto;
     height: 25px;
 }
