@@ -58,6 +58,10 @@
     height: auto;
 }
 
+.live-scoreboard{
+    display: flex;
+}
+
 .game-stream {
     display: flex;
     justify-content: flex-end;
