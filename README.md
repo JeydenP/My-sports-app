@@ -23,4 +23,3 @@ In the future, I want to add more web pages that will show and update the NFL, M
 
 If you have any suggestions or comments, please feel free to contact me at Jeydenpena13@gmail.com.
 
-Also, please feel free to take a look at my [Resume](https://drive.google.com/file/d/1MUDjeSCCWRQW7RE-hGfV7IVFa4rwQwR-/view?usp=sharing)
