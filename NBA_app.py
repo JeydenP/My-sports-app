@@ -10,7 +10,6 @@ today = date.today()
 yesterday = today - timedelta(days=1)
 tomorrow = today + timedelta(days=1)
 
-
 folder_path = "../NBA/past-games-archive/"
 
 # Get the list of files in the folder
@@ -22,7 +21,7 @@ last_file_path = os.path.join(folder_path, sorted_files[-1])
 
 
 
-events_url = f"https://api.apilayer.com/therundown/sports/4/events/{yesterday}"
+events_url = f"https://api.apilayer.com/therundown/sports/4/events/{date(2025,6,22)}"
 all_events_details = get_data(events_url,{"include":"scores","affiliate_ids":"19","offset":"240"},3)
 
 
