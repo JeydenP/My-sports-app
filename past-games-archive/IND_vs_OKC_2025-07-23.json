@@ -1,0 +1,150 @@
+{
+  "event_id": "9462836896c9e90c49cb334d024be70e",
+  "event_uuid": "11f0-4b12-33db7400-8140-832fc9724f60",
+  "sport_id": 4,
+  "event_date": "2025-06-17T00:30:00Z",
+  "score": {
+    "event_id": "9462836896c9e90c49cb334d024be70e",
+    "event_status": "STATUS_FINAL",
+    "winner_away": 0,
+    "winner_home": 1,
+    "score_away": 109,
+    "score_home": 120,
+    "score_away_by_period": [22, 23, 34, 30],
+    "score_home_by_period": [32, 27, 28, 33],
+    "venue_name": "Paycom Center",
+    "venue_location": "Oklahoma City, OK",
+    "game_clock": 0,
+    "display_clock": "0.00",
+    "game_period": 4,
+    "broadcast": "ABC",
+    "event_status_detail": "Final",
+    "updated_at": "2025-06-17T03:18:03Z"
+  },
+  "teams": [
+    {
+      "team_id": 2757155,
+      "team_normalized_id": 9,
+      "name": "IND Pacers",
+      "is_away": true,
+      "is_home": false
+    },
+    {
+      "team_id": 2756869,
+      "team_normalized_id": 18,
+      "name": "OKC Thunder",
+      "is_away": false,
+      "is_home": true
+    }
+  ],
+  "teams_normalized": [
+    {
+      "team_id": 9,
+      "name": "Indiana",
+      "mascot": "Pacers",
+      "abbreviation": "IND",
+      "conference_id": 39,
+      "division_id": 16,
+      "ranking": 0,
+      "record": "50-32",
+      "is_away": true,
+      "is_home": false,
+      "conference": {
+        "conference_id": 39,
+        "sport_id": 4,
+        "name": "Eastern Conference"
+      },
+      "division": {
+        "division_id": 16,
+        "conference_id": 39,
+        "sport_id": 4,
+        "name": "Central"
+      }
+    },
+    {
+      "team_id": 18,
+      "name": "Oklahoma City",
+      "mascot": "Thunder",
+      "abbreviation": "OKC",
+      "conference_id": 757,
+      "division_id": 18,
+      "ranking": 0,
+      "record": "68-14",
+      "is_away": false,
+      "is_home": true,
+      "conference": {
+        "conference_id": 757,
+        "sport_id": 4,
+        "name": "Western Conference"
+      },
+      "division": {
+        "division_id": 18,
+        "conference_id": 757,
+        "sport_id": 4,
+        "name": "Northwest"
+      }
+    }
+  ],
+  "schedule": {
+    "league_name": "National Basketball Association",
+    "conference_competition": false,
+    "season_type": "Postseason",
+    "season_year": 2025,
+    "event_headline": "NBA Finals - Game 5",
+    "event_name": "NBA Finals - Game 5 - Indiana at Oklahoma City - 2025-06-17T00:30:00Z",
+    "attendance": "0"
+  },
+  "lines": {
+    "19": {
+      "line_id": 17804922,
+      "moneyline": {
+        "moneyline_away": 300,
+        "moneyline_away_delta": -10,
+        "moneyline_home": -380,
+        "moneyline_home_delta": 15,
+        "moneyline_draw": 0.0001,
+        "moneyline_draw_delta": 0,
+        "line_id": 17804922,
+        "event_id": "9462836896c9e90c49cb334d024be70e",
+        "sport_id": 4,
+        "affiliate_id": 19,
+        "format": "American"
+      },
+      "spread": {
+        "point_spread_away": 9.5,
+        "point_spread_home": -9.5,
+        "point_spread_away_delta": 0,
+        "point_spread_home_delta": 0,
+        "point_spread_away_money": -115,
+        "point_spread_away_money_delta": -3,
+        "point_spread_home_money": -105,
+        "point_spread_home_money_delta": 3,
+        "line_id": 17804922,
+        "event_id": "9462836896c9e90c49cb334d024be70e",
+        "sport_id": 4,
+        "affiliate_id": 19,
+        "format": "American"
+      },
+      "total": {
+        "total_over": 223.5,
+        "total_over_delta": -1.5,
+        "total_under": 223.5,
+        "total_under_delta": -1.5,
+        "total_over_money": -110,
+        "total_over_money_delta": 0,
+        "total_under_money": -110,
+        "total_under_money_delta": 0,
+        "line_id": 17804922,
+        "event_id": "9462836896c9e90c49cb334d024be70e",
+        "sport_id": 4,
+        "affiliate_id": 19,
+        "format": "American"
+      },
+      "affiliate": {
+        "affiliate_id": 19,
+        "affiliate_name": "Draftkings",
+        "affiliate_url": "https://sportsbook.draftkings.com/"
+      }
+    }
+  }
+}

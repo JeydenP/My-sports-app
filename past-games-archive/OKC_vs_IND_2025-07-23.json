@@ -1,0 +1,153 @@
+{
+  "event_id": "3dbd1b294158afea3e8d98f5c3a0eb9a",
+  "event_uuid": "11f0-4d6d-b318b400-8df8-c1b7735e3799",
+  "sport_id": 4,
+  "event_date": "2025-06-20T00:30:00Z",
+  "score": {
+    "event_id": "3dbd1b294158afea3e8d98f5c3a0eb9a",
+    "event_status": "STATUS_FINAL",
+    "winner_away": 0,
+    "winner_home": 1,
+    "score_away": 91,
+    "score_home": 108,
+    "score_away_by_period": [25, 17, 18, 31],
+    "score_home_by_period": [28, 36, 26, 18],
+    "venue_name": "Gainbridge Fieldhouse",
+    "venue_location": "Indianapolis, IN",
+    "game_clock": 0,
+    "display_clock": "0.00",
+    "game_period": 4,
+    "broadcast": "ABC",
+    "event_status_detail": "Final",
+    "updated_at": "2025-06-20T03:11:43Z"
+  },
+  "teams": [
+    {
+      "team_id": 2756869,
+      "team_normalized_id": 18,
+      "name": "OKC Thunder",
+      "is_away": true,
+      "is_home": false
+    },
+    {
+      "team_id": 2757155,
+      "team_normalized_id": 9,
+      "name": "IND Pacers",
+      "is_away": false,
+      "is_home": true
+    }
+  ],
+  "teams_normalized": [
+    {
+      "team_id": 18,
+      "name": "Oklahoma City",
+      "mascot": "Thunder",
+      "abbreviation": "OKC",
+      "conference_id": 757,
+      "division_id": 18,
+      "ranking": 0,
+      "record": "68-14",
+      "is_away": true,
+      "is_home": false,
+      "conference": {
+        "conference_id": 757,
+        "sport_id": 4,
+        "name": "Western Conference"
+      },
+      "division": {
+        "division_id": 18,
+        "conference_id": 757,
+        "sport_id": 4,
+        "name": "Northwest"
+      }
+    },
+    {
+      "team_id": 9,
+      "name": "Indiana",
+      "mascot": "Pacers",
+      "abbreviation": "IND",
+      "conference_id": 39,
+      "division_id": 16,
+      "ranking": 0,
+      "record": "50-32",
+      "is_away": false,
+      "is_home": true,
+      "conference": {
+        "conference_id": 39,
+        "sport_id": 4,
+        "name": "Eastern Conference"
+      },
+      "division": {
+        "division_id": 16,
+        "conference_id": 39,
+        "sport_id": 4,
+        "name": "Central"
+      }
+    }
+  ],
+  "schedule": {
+    "league_name": "National Basketball Association",
+    "conference_competition": false,
+    "season_type": "Postseason",
+    "season_year": 2025,
+    "event_headline": "NBA Finals - Game 6",
+    "event_name": "NBA Finals - Game 6 - Oklahoma City at Indiana - 2025-06-20T00:30:00Z",
+    "attendance": "0"
+  },
+  "lines": {
+    "19": {
+      "line_id": 17805904,
+      "moneyline": {
+        "moneyline_away": 0.0001,
+        "moneyline_away_delta": 205.0001,
+        "moneyline_home": 0.0001,
+        "moneyline_home_delta": -169.9999,
+        "moneyline_draw": 0.0001,
+        "moneyline_draw_delta": 0,
+        "line_id": 17805904,
+        "event_id": "3dbd1b294158afea3e8d98f5c3a0eb9a",
+        "sport_id": 4,
+        "affiliate_id": 19,
+        "date_updated": "2025-06-20T00:59:55.599849Z",
+        "format": "American"
+      },
+      "spread": {
+        "point_spread_away": 0.0001,
+        "point_spread_home": 0.0001,
+        "point_spread_away_delta": 6.0001,
+        "point_spread_home_delta": -5.9999,
+        "point_spread_away_money": 0.0001,
+        "point_spread_away_money_delta": 110.0001,
+        "point_spread_home_money": 0.0001,
+        "point_spread_home_money_delta": 110.0001,
+        "line_id": 17805904,
+        "event_id": "3dbd1b294158afea3e8d98f5c3a0eb9a",
+        "sport_id": 4,
+        "affiliate_id": 19,
+        "date_updated": "2025-06-20T00:59:55.604738Z",
+        "format": "American"
+      },
+      "total": {
+        "total_over": 0.0001,
+        "total_over_delta": -222.4999,
+        "total_under": 0.0001,
+        "total_under_delta": -222.4999,
+        "total_over_money": 0.0001,
+        "total_over_money_delta": 110.0001,
+        "total_under_money": 0.0001,
+        "total_under_money_delta": 110.0001,
+        "line_id": 17805904,
+        "event_id": "3dbd1b294158afea3e8d98f5c3a0eb9a",
+        "sport_id": 4,
+        "affiliate_id": 19,
+        "date_updated": "2025-06-20T00:59:55.609513Z",
+        "format": "American"
+      },
+      "affiliate": {
+        "affiliate_id": 19,
+        "affiliate_name": "Draftkings",
+        "affiliate_url": "https://sportsbook.draftkings.com/"
+      }
+    }
+  }
+}
