@@ -68,7 +68,7 @@ def get_live_score(home_score,away_score):
     new_scores = []
     live_score = get_data(specific_game_url,{"include":"scores","affiliate_ids":"19","offset":"240"},2)
     if(live_score['score']['event_status'] == "STATUS_FINAL"):
-        print("Game is over")
+        # print("Game is over")
         make_json(away_team_abbr[0]+"_vs_"+home_team_abbr[0]+"_"+str(today),live_score)
         exit()
     elif(live_score['score']['event_status'] == "STATUS_HALFTIME"):
